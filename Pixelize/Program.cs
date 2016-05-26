@@ -14,6 +14,7 @@ namespace Pixelize
 				inputImage = new Bitmap (inputImagePath);
 			} catch {
 				Console.WriteLine ("Image not found");
+				Console.ReadKey ();
 				Environment.Exit (1);
 			}
 
@@ -30,6 +31,7 @@ namespace Pixelize
 				numberOfPixelsInHeight = Convert.ToInt32 (heightInput);
 			} catch {
 				Console.WriteLine ("Invalid dimensions");
+				Console.ReadKey ();
 				Environment.Exit (1);
 			}
 		
@@ -44,6 +46,7 @@ namespace Pixelize
 				output.Save (outputImagePath);
 			} catch {
 				Console.WriteLine ("Cannot save image -- Invalid path");
+				Console.ReadKey ();
 				Environment.Exit (1);
 			}
 
