@@ -1,5 +1,5 @@
 # Pixelize
-An image pixelizer implemented using System.Draw. This project can be used as a library or as an console application.
+An image pixelizer implemented using System.Draw. This project can be used as a library or as a console application.
 
 ## Example
 
